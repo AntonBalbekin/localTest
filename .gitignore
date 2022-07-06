@@ -1,0 +1,7 @@
+/*
+/local/log
+/local/vendor
+!/local
+!/extranet
+!/composer.json
+!/.gitignore

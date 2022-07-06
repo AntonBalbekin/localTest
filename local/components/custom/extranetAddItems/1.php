@@ -5,7 +5,7 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 
 Loader::includeModule('intranet');
 
-Extension::load(["ui.buttons","ui.icons.b24", "sidepanel","fx","popup","ui.bootstrap4"]);
+Extension::load(["ui.buttons","ui.icons.b24", "sidepanel","fx","popup"]);
 
 CJSCore::Init(array('ajax',"jquery",'loader','main','popup','ui')); 
 class DemoTest  extends \CBitrixComponent{
@@ -24,6 +24,3 @@ class DemoTest  extends \CBitrixComponent{
     }
     
 }
-
-
-
