@@ -1,0 +1,24 @@
+{
+    "require": {
+        "wikimedia/composer-merge-plugin": "dev-master",
+        "kint-php/kint": "^4.1"
+    },
+    "config": {
+        "vendor-dir": "/home/bitrix/www/local/vendor",
+        "allow-plugins": {
+            "wikimedia/composer-merge-plugin": true
+        }
+    },
+    "extra": {
+        "merge-plugin": {
+            "require": [
+                "/home/bitrix/www/bitrix/composer-bx.json"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "cust\\":"/local/classes/"
+        }
+    }
+}
